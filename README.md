@@ -1,0 +1,1 @@
+Ejercicio B con textField para nombre, apellido, edad un boton de agregar y una tabla en la que se iran añadiendo personas
