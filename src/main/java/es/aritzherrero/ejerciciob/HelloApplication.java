@@ -3,9 +3,11 @@ package es.aritzherrero.ejerciciob;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 /**
  * Clase principal de la aplicación JavaFX.
@@ -34,8 +36,10 @@ public class HelloApplication extends Application {
         stage.setMinHeight(620);
         stage.setMinWidth(830);
 
-        // Establecer el título de la ventana
+        // Establecer el título e icono de la ventana
         stage.setTitle("Ejercicio B");
+        Image icono= new Image(getClass().getResourceAsStream("/imagen/agenda.png"));
+        stage.getIcons().add(icono);
 
         // Asignar la escena al stage y mostrar la ventana
         stage.setScene(scene);
