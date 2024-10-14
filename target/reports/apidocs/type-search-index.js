@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"es.aritzherrero.ejerciciob","l":"HelloApplication"},{"p":"es.aritzherrero.ejerciciob.Controladores","l":"PersonaController"}];updateSearchResults();
