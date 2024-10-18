@@ -78,7 +78,7 @@ public class PersonaController implements Initializable {
     }
 
     /**
-     * Método llamado cuando se presiona el botón "Agregar".
+     * Procedimiento llamado cuando se presiona el botón "Agregar".
      * Valida los campos del formulario y agrega una nueva persona a la tabla si no está ya presente.
      *
      * @param event
